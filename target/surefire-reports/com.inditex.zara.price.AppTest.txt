@@ -1,0 +1,89 @@
+-------------------------------------------------------------------------------
+Test set: com.inditex.zara.price.AppTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 6.303 s <<< FAILURE! - in com.inditex.zara.price.AppTest
+shouldReturnProperPriceData_case1  Time elapsed: 0.315 s  <<< ERROR!
+org.springframework.web.client.RestClientException: 
+Error while extracting response for type [class com.inditex.zara.price.AppTest$PriceResponse] and content type [application/json]; nested exception is org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'Internal': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'Internal': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 10]
+	at com.inditex.zara.price.AppTest.callGetEndpoint(AppTest.java:71)
+	at com.inditex.zara.price.AppTest.shouldReturnProperPriceData_case1(AppTest.java:54)
+Caused by: org.springframework.http.converter.HttpMessageNotReadableException: 
+JSON parse error: Unrecognized token 'Internal': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'Internal': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 10]
+	at com.inditex.zara.price.AppTest.callGetEndpoint(AppTest.java:71)
+	at com.inditex.zara.price.AppTest.shouldReturnProperPriceData_case1(AppTest.java:54)
+Caused by: com.fasterxml.jackson.core.JsonParseException: 
+Unrecognized token 'Internal': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 10]
+	at com.inditex.zara.price.AppTest.callGetEndpoint(AppTest.java:71)
+	at com.inditex.zara.price.AppTest.shouldReturnProperPriceData_case1(AppTest.java:54)
+
+shouldReturnProperPriceData_case2  Time elapsed: 0.006 s  <<< ERROR!
+org.springframework.web.client.RestClientException: 
+Error while extracting response for type [class com.inditex.zara.price.AppTest$PriceResponse] and content type [application/json]; nested exception is org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'Internal': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'Internal': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 10]
+	at com.inditex.zara.price.AppTest.callGetEndpoint(AppTest.java:71)
+	at com.inditex.zara.price.AppTest.shouldReturnProperPriceData_case2(AppTest.java:104)
+Caused by: org.springframework.http.converter.HttpMessageNotReadableException: 
+JSON parse error: Unrecognized token 'Internal': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'Internal': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 10]
+	at com.inditex.zara.price.AppTest.callGetEndpoint(AppTest.java:71)
+	at com.inditex.zara.price.AppTest.shouldReturnProperPriceData_case2(AppTest.java:104)
+Caused by: com.fasterxml.jackson.core.JsonParseException: 
+Unrecognized token 'Internal': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 10]
+	at com.inditex.zara.price.AppTest.callGetEndpoint(AppTest.java:71)
+	at com.inditex.zara.price.AppTest.shouldReturnProperPriceData_case2(AppTest.java:104)
+
+shouldReturnProperPriceData_case3  Time elapsed: 0.007 s  <<< ERROR!
+org.springframework.web.client.RestClientException: 
+Error while extracting response for type [class com.inditex.zara.price.AppTest$PriceResponse] and content type [application/json]; nested exception is org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'Internal': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'Internal': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 10]
+	at com.inditex.zara.price.AppTest.callGetEndpoint(AppTest.java:71)
+	at com.inditex.zara.price.AppTest.shouldReturnProperPriceData_case3(AppTest.java:126)
+Caused by: org.springframework.http.converter.HttpMessageNotReadableException: 
+JSON parse error: Unrecognized token 'Internal': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'Internal': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 10]
+	at com.inditex.zara.price.AppTest.callGetEndpoint(AppTest.java:71)
+	at com.inditex.zara.price.AppTest.shouldReturnProperPriceData_case3(AppTest.java:126)
+Caused by: com.fasterxml.jackson.core.JsonParseException: 
+Unrecognized token 'Internal': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 10]
+	at com.inditex.zara.price.AppTest.callGetEndpoint(AppTest.java:71)
+	at com.inditex.zara.price.AppTest.shouldReturnProperPriceData_case3(AppTest.java:126)
+
+shouldReturnProperPriceData_case4  Time elapsed: 0.007 s  <<< ERROR!
+org.springframework.web.client.RestClientException: 
+Error while extracting response for type [class com.inditex.zara.price.AppTest$PriceResponse] and content type [application/json]; nested exception is org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'Internal': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'Internal': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 10]
+	at com.inditex.zara.price.AppTest.callGetEndpoint(AppTest.java:71)
+	at com.inditex.zara.price.AppTest.shouldReturnProperPriceData_case4(AppTest.java:148)
+Caused by: org.springframework.http.converter.HttpMessageNotReadableException: 
+JSON parse error: Unrecognized token 'Internal': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'Internal': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 10]
+	at com.inditex.zara.price.AppTest.callGetEndpoint(AppTest.java:71)
+	at com.inditex.zara.price.AppTest.shouldReturnProperPriceData_case4(AppTest.java:148)
+Caused by: com.fasterxml.jackson.core.JsonParseException: 
+Unrecognized token 'Internal': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 10]
+	at com.inditex.zara.price.AppTest.callGetEndpoint(AppTest.java:71)
+	at com.inditex.zara.price.AppTest.shouldReturnProperPriceData_case4(AppTest.java:148)
+
+shouldReturnProperPriceData_case5  Time elapsed: 0.008 s  <<< ERROR!
+org.springframework.web.client.RestClientException: 
+Error while extracting response for type [class com.inditex.zara.price.AppTest$PriceResponse] and content type [application/json]; nested exception is org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'Internal': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'Internal': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 10]
+	at com.inditex.zara.price.AppTest.callGetEndpoint(AppTest.java:71)
+	at com.inditex.zara.price.AppTest.shouldReturnProperPriceData_case5(AppTest.java:170)
+Caused by: org.springframework.http.converter.HttpMessageNotReadableException: 
+JSON parse error: Unrecognized token 'Internal': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'Internal': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 10]
+	at com.inditex.zara.price.AppTest.callGetEndpoint(AppTest.java:71)
+	at com.inditex.zara.price.AppTest.shouldReturnProperPriceData_case5(AppTest.java:170)
+Caused by: com.fasterxml.jackson.core.JsonParseException: 
+Unrecognized token 'Internal': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 10]
+	at com.inditex.zara.price.AppTest.callGetEndpoint(AppTest.java:71)
+	at com.inditex.zara.price.AppTest.shouldReturnProperPriceData_case5(AppTest.java:170)
+
