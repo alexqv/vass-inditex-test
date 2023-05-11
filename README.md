@@ -1,0 +1,1 @@
+# vass-inditex-test
