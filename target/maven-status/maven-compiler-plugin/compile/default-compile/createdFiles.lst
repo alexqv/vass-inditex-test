@@ -1,0 +1,10 @@
+com/inditex/zara/price/model/PriceData.class
+com/inditex/zara/price/service/PriceService.class
+com/inditex/zara/price/database/entity/Brand.class
+com/inditex/zara/price/controller/GlobalControllerAdvice.class
+com/inditex/zara/price/database/repository/PriceRepository.class
+com/inditex/zara/price/Application.class
+com/inditex/zara/price/controller/PriceController.class
+com/inditex/zara/price/model/PriceData$PriceDataBuilder.class
+com/inditex/zara/price/ServletInitializer.class
+com/inditex/zara/price/database/entity/Price.class

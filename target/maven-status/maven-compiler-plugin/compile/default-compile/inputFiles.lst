@@ -1,0 +1,9 @@
+/home/alex/documents/career/tests/2023-05/vass-test-inditex/src/main/java/com/inditex/zara/price/Application.java
+/home/alex/documents/career/tests/2023-05/vass-test-inditex/src/main/java/com/inditex/zara/price/controller/GlobalControllerAdvice.java
+/home/alex/documents/career/tests/2023-05/vass-test-inditex/src/main/java/com/inditex/zara/price/database/repository/PriceRepository.java
+/home/alex/documents/career/tests/2023-05/vass-test-inditex/src/main/java/com/inditex/zara/price/database/entity/Brand.java
+/home/alex/documents/career/tests/2023-05/vass-test-inditex/src/main/java/com/inditex/zara/price/database/entity/Price.java
+/home/alex/documents/career/tests/2023-05/vass-test-inditex/src/main/java/com/inditex/zara/price/controller/PriceController.java
+/home/alex/documents/career/tests/2023-05/vass-test-inditex/src/main/java/com/inditex/zara/price/ServletInitializer.java
+/home/alex/documents/career/tests/2023-05/vass-test-inditex/src/main/java/com/inditex/zara/price/service/PriceService.java
+/home/alex/documents/career/tests/2023-05/vass-test-inditex/src/main/java/com/inditex/zara/price/model/PriceData.java
